@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(rgba(57, 255, 243, 1), rgba(0, 16, 171, 0.96) );
+    background: cover;
+    background-size: containc;
+    
+   
+    
+}
+h1 {
+    font-size: 85px;
+    background: linear-gradient(rgba(57, 255, 243, 1), rgba(0, 16, 171, 0.96) );
+
+
+  }
+.container{
+   text-align: center;
+  position: relative;
+  margin: 50px auto;
+  padding: 20px 0px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0 300px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 20PX 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  font-family: 'Poppins', sans-serif;
+}
+
+#counting{
+    font-size: 85px;
+    color: #0c1ba4;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    border: 2px solid #0c1ba4;
+    box-shadow: 0 3px 3px 0 #0c1ba4, 0 3px 6px 0 #0c1ba4;
+    background-color:#0c1ba4;
+    color: aliceblue;
+    margin : 0 50% 0 50%;
+    margin-top: 25px;
+    margin-left: 36%;
+        
+    
+
+}
+button:hover{
+    background: white;
+    color: #0c1ba4;
+}
+.bottom-container{
+    
+    margin-bottom: 0;
+    padding: 50px 0 20px;
+  
+  }
+  .copyright{
+      text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+      .container{
+          width: 250px;
+          height: 375px;
+      }
+      button{
+          margin-top: 10px;
+          
+      }
+    }
